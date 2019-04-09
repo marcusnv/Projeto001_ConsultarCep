@@ -4,9 +4,17 @@
              xmlns:local="clr-namespace:Projeto001_ConsultarCep"
              x:Class="Projeto001_ConsultarCep.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+    <StackLayout BackgroundColor="#D2691E" Padding="30" Spacing="30">
+        <!-- A contentPage é um tipo de pagina simples, usada para mostrar conteúdo somente, só suporta um objeto por pagina -->
+        <!-- Por isso é necessário criar um StackLayout -->
+        <!--Imagem -->
+        <Image Source="horus.png" x:Name="LOGO"/>
+        <!--Campo de texto -->
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#D2691E" BackgroundColor="#FFFFFF" x:Name="CEP" />
+        <!--Botão -->
+        <Button Text="Buscar CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="BOTAO"/>
+        <!--TEXTO -->
+        <Label Text="" x:Name="RESULTADO"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>

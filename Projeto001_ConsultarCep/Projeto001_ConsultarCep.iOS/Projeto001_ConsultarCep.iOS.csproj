@@ -157,4 +157,7 @@
       <Name>Projeto001_ConsultarCep</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\horus.png" />
+  </ItemGroup>
 </Project>
